@@ -3,14 +3,12 @@ body {
   color: white;
   display: flex;
   height: 100vh;
-  overflow: hidden;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 0px;
   font-family: JetBrains Mono;
   position: relative;
-
 }
 h1 {
   font-size: 5rem;

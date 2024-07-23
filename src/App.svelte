@@ -85,7 +85,7 @@
 </script>
 
 <main>
-  <h1>Math</h1>
+  <h1>Lazy Math</h1>
   <div id="display">
     <form id="math-input" on:submit|preventDefault={handleSubmit}>
       <input

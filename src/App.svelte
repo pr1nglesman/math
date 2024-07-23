@@ -80,6 +80,7 @@
     median = calculateMedian(sortedArray);
     mode = calculateMode(inputArray);
     iqr = calculateIQR(sortedArray);
+    inputElement.value = '';
   }
 </script>
 

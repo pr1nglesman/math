@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  font-family: JetBrains Mono;
+  position: relative;
+
+}
+h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+#calculator-container {
+  align-items: center;
+  font-size: 3rem;
+}
+#app {
+  margin: 25px;
+}

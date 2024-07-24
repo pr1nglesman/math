@@ -3,23 +3,11 @@ body {
   color: white;
   display: flex;
   height: 100vh;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0px;
+  margin: 0;
   font-family: JetBrains Mono;
   position: relative;
 }
-h1 {
-  font-size: 5rem;
-  text-align: center;
-  font-family: JetBrains Mono;
-}
 
-#calculator-container {
-  align-items: center;
-  font-size: 3rem;
-}
-#app {
-  margin: 25px;
-}

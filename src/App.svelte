@@ -85,7 +85,7 @@
 </script>
 
 <main>
-  <h1>Lazy Math</h1>
+  <h1 id="title">Lazy Math</h1>
   <div id="display">
     <form id="math-input" on:submit|preventDefault={handleSubmit}>
       <input
@@ -108,19 +108,26 @@
 </main>
 
 <style>
-  #display {
-    background-color: rgb(50, 50, 50);
-    font-size: 3.5rem;
-    text-align: center;
-    border-radius: 100px;
-    border: 5px solid white;
-    color: white;
-    font-family: "JetBrains Mono", monospace;
-    transition: 0.5s ease-in-out;
-    margin: 0;
+  #title {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
   }
+  #display {
+  background-color: rgb(50, 50, 50);
+  font-size: 3.5rem;
+  text-align: center;
+  border-radius: 100px;
+  border: 5px solid white;
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+  transition: 0.5s ease-in-out;
+  margin: 25px; 
+  overflow: visible; 
+}
+
   #display:hover {
-    box-shadow: 0 0 100px rgb(150, 150, 150);
+    box-shadow: 0 0 50px rgb(150, 150, 150);
   }
 
   #text {

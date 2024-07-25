@@ -3,7 +3,6 @@
   import App from './App.svelte';
   import Calculator from './Calculator.svelte';
   import Game from './Draw.svelte';
-
   function toggle() {
     game = !game;
   }
@@ -28,6 +27,7 @@
     border-radius: 50px;
     transition: 0.5s ease-in-out;
     cursor: pointer;
+    z-index: 5;
   }
   #game-btn:hover {
     background-color: black;
